@@ -1,5 +1,5 @@
 FROM bash:4.4
 
-COPY script.sh /
+COPY copy.sh /
 
-CMD ["bash", "/script.sh"]
+CMD ["bash", "/copy.sh"]
